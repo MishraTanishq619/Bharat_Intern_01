@@ -7,7 +7,7 @@ html,
 body {
 	width: 100%;
 	height: 100%;
-	background-color: pink;
+	background-color: rgb(226, 217, 92);
 }
 
 /* rside */
@@ -18,7 +18,7 @@ body {
 	bottom: 0;
 	z-index: 99;
 	position: fixed;
-	width: 20%;
+	width: 23%;
 	background-color: rgb(123, 123, 243);
 	display: flex;
 	flex-direction: column;
@@ -34,8 +34,13 @@ body {
 	text-align: center;
 	background-color: rgba(0, 255, 200, 0.726);
 }
+
+#rside a:hover {
+	color: rgb(231, 47, 57);
+}
 #rside img {
 	border-radius: 999px;
+	size: 19rem;
 }
 
 #img {
@@ -54,7 +59,7 @@ body {
 /* main */
 
 #main {
-	background-color: pink;
+	background-color: rgb(226, 217, 92);
 	width: 100%;
 }
 #main h1 {
@@ -67,11 +72,16 @@ body {
 	height: 80vh;
 	width: 80%;
 }
-#about {
-	background-color: rgb(240, 140, 156);
+
+.main2 {
+	/* height: 80vh; */
+	width: 80%;
 }
-#certifications {
-	background-color: rgb(240, 140, 156);
+
+#about,
+#projects,
+#contact {
+	background-color: rgb(238, 173, 75);
 }
 
 #a1 {
@@ -149,7 +159,7 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-	color: hotpink;
+	color: rgb(46, 184, 189);
 }
 
 /* selected link */
@@ -158,7 +168,7 @@ a:active {
 }
 
 #d1 {
-	width: 100%;
+	width: 95%;
 	height: 70%;
 	padding-left: 2%;
 	display: flex;
@@ -178,4 +188,25 @@ a:active {
 #d12 img {
 	border-radius: 999px;
 	border: 4px solid palevioletred;
+}
+
+#e1 {
+	width: 100%;
+	/* height: 70%; */
+	padding-left: 2%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+#e1 h2 {
+	font-size: 6vh;
+	margin: 2rem;
+}
+
+#e1 img {
+	height: 26rem;
+	width: 70%;
+	align-self: center;
+	margin-bottom: 4rem;
 }
